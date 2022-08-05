@@ -2,26 +2,31 @@
     {
         "id": "62eca62e750e86c971f11898",
         "color": "red",
-        "name": "Paulette Pearson"
+        "name": "Paulette Pearson",
+        "price": 250
     },
     {
         "id": "62eca62eb98c6330e8c11dd1",
         "color": "pink",
-        "name": "Randall Baldwin"
+        "name": "Randall Baldwin",
+        "price": 20
     },
     {
         "id": "62eca62e82c8d723ae0759bf",
         "color": "white",
-        "name": "Oneil Adkins"
+        "name": "Oneil Adkins",
+        "price": 200
     },
     {
         "id": "62eca62e962466e26bb1fe30",
         "color": "Black",
-        "name": "Clemons Park"
+        "name": "Clemons Park",
+        "price": 220
     },
     {
         "id": "62eca62eece4d3f01dc14aff",
         "color": "yellow",
-        "name": "Alvarez Foreman"
+        "name": "Alvarez Foreman",
+        "price": 50
     }
 ]

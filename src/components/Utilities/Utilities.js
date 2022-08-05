@@ -44,8 +44,15 @@ const removeFromDb = (id) => {
     }
 };
 
+//------------------------Reducer---------------------
+const getTotalPrice = (cosmetic) => {
+    const reducer = (previous, current) => previous + current.price;
+    const total = cosmetic.reduce(reducer, 0)
+    return total;
+}
+
 const deleteShoppingCart = () => {
     localStorage.removeItem('shopping-cart');
 }
 
-export { fakeDb, removeFromDb, deleteShoppingCart };
+export { fakeDb, removeFromDb, deleteShoppingCart, getTotalPrice };
